@@ -1,0 +1,12 @@
+To run train_phone_finder.py, execute command:
+	"python train_phone_finder.py ~/find_phone"
+
+	This will run the PhoneDetector() class and print the detected phone
+	coordinates as well as the actual phone coordinates.
+
+To run find_phone.py:
+	(1) Change the folder path to folder containing test images:
+		Example:
+		- change folder = './find_phone' to folder = './find_phone_test_images'
+	(2) Execute command:
+			"python find_phone.py ~/find_phone_test_images"
